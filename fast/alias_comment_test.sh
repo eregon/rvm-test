@@ -1,6 +1,6 @@
 source "$rvm_path/scripts/rvm"
 
-rvm use 2.3.4 --install
+rvm --debug use 2.3.4 --install
 rvm use 2.4.0 --install
 rvm gemset create test_gemset
 
